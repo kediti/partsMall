@@ -1,10 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<meta charset="UTF-8"">
+<title>주문하기</title>
 </head>
 <body>
-
+<!-- 헤더 넣기 -->
+	<section id="wrap">
+		<div class="container">
+			<div class=title>
+				<h1>주문/결제</h1>
+			</div>
+			<form>
+				<div class="userInfo">
+					<h3>
+						배송지 정보
+					</h3>
+					
+						<div>
+							<label>
+								받으실 분
+							</label>
+							<input />
+						</div>
+						<p></p>
+						<div>
+							<label>
+								전화번호
+							</label>
+							<input />
+						</div>
+						<p></p>
+						<div>
+							<label>
+								우편번호
+							</label>
+							<input />
+						</div>
+						<p></p>
+						<div>
+							<label>
+								주소
+							</label>
+							<input />
+						</div>
+						<p></p>
+						<div>
+							<label>
+								상세주소
+							</label>
+							<input />
+						</div>
+						<p></p>
+				</div>
+				<div class="itemInfo">
+					<h3>
+						제품 정보
+					</h3>
+					<table class="itemList">
+		   	    		<colgroup> 
+			   	    		
+			   	    		<col width="50">
+			   	    		<col width="170">
+			   	    		<col width="*">
+			   	    		<col width="143">
+		   	    		</colgroup>	
+		   	    			<tbody class="listBody">
+		   	    				<tr class="wishItem">
+			   	    				<td>
+			   	    					
+			   	    				</td>
+			   	    				<td class="itemImage">
+			   	    					<a href=> <!-- 이미지 삽입 -->
+			   	    						<img class="supImg" src="data:image/png;base64,${supImgBase64}" width="150" height="150">
+			   	    					</a>
+			   	    				</td>
+			   	    				<td class="supDetail">
+			   	    					 <p> 테스트 상품명</p>
+			   	    					 <p>예시 브랜드 이름 </p>
+			   	    					 <p> 얼추 가격</p>
+			   	    				</td>
+			   	    			</tr>
+			   	    		</tbody>
+		   	    	</table>
+				</div>
+			</form>
+		</div>
+	</section>
+<!-- 푸터 넣기 -->
 </body>
 </html>
